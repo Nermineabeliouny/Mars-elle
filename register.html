@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <title>QR code scnaner</title>
+</head>
+<body>
+<h1>MARS-ELLE</h1>
+<form action="dashboard.html">
+    <label for="nom" >Nom</label>
+    <input type="text" name="nom" required>
+    <br>
+    <label for="prenom">Prenom</label>
+    <input type="text" name="prenom" required >
+    <br>
+    <label for="birth">date de naissance</label>
+    <input type="date" name="birth" required>
+    <br>
+    <label for="email">E-mail</label>
+    <input type="email" name="email" required>
+    <br>
+    <label for="password"> mot de passe</label>
+
+    <input type="password" name="password" required>
+    <br>
+    <label for="password2">Confirmez votre mot de passe</label>
+    <input type="password2" name="password" required>
+    <br>
+    <input type="checkbox" name="conditions">
+    <label for="conditions">J'accepte les <a href="">conditions d'utilisation</a></label>
+    <br>
+    <input type="submit" value="Créer mon compte">
+
+
+</form>
+
+</div>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
